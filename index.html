@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discord - Projeto Responsivo</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f6f6f6;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .header {
+      background-color: #404eed;
+      color: white;
+      padding: 1rem 0;
+    }
+
+    .header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .menu {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #5865f2;
+      color: white;
+      padding: 3rem 0;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background-color: white;
+      color: #404eed;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .btn-dark {
+      background-color: #23272a;
+      color: white;
+    }
+
+    .footer {
+      background-color: #23272a;
+      color: white;
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    @media (max-width: 768px) {
+      .header .container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .menu {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+      }
+
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Discord</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Baixar</a></li>
+          <li><a href="#">Nitro</a></li>
+          <li><a href="#">Descobrir</a></li>
+          <li><a href="#">Entrar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Imagine um lugar...</h2>
+      <p>...onde você pode pertencer a um clube escolar, grupo de jogos, comunidade mundial de arte ou apenas um punhado de amigos que querem conversar.</p>
+      <div class="buttons">
+        <button class="btn">Baixar para Windows</button>
+        <button class="btn btn-dark">Abrir no navegador</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Desenvolvido por um estudante de Ciência de Dados que também curte design e front-end 🎨💻</p>
+    </div>
+  </footer>
+</body>
+</html>
