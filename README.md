@@ -32,3 +32,23 @@ Entender e aplicar esses conceitos é super útil, principalmente para quem quer
 ---
 
 Desenvolvido com dedicação por um futuro cientista de dados curioso pelo universo do front-end 👨‍💻✨
+
+
+## 📋 Descrição
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📦 Instalação
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 💻 Uso
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📄 Licença
+
+Descreva aqui o conteúdo desta seção.
